@@ -29,5 +29,10 @@ def main():
             st.write("Resultados de la búsqueda:")
             st.write(filtered_df)
             st.dataframe(filtered_df, width=1500, height=400)  # Ajusta el ancho y la altura según tus necesidades
+            
+            
+            
+            
+            
 if __name__ == "__main__":
     main()
