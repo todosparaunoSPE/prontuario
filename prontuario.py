@@ -27,7 +27,7 @@ def main():
             # Filtrar el DataFrame
             filtered_df = df[df[search_column].astype(str).str.contains(search_term, case=False, na=False)]
             st.write("Resultados de la búsqueda:")
-            st.write(filtered_df)
+            ##st.write(filtered_df)
             st.dataframe(filtered_df, width=1500, height=400)  # Ajusta el ancho y la altura según tus necesidades
             
             
